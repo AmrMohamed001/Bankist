@@ -229,7 +229,7 @@ btnLogin.addEventListener("click" , function(e){
 
 const startLogoutTimer = function(){
   // 100 second
-  let time = 10;//seconds
+  let time = 100;//seconds
   let timer = setInterval(function(){
     let min = String(Math.trunc(time/60)).padStart(2,0);
     let second = String(time%60).padStart(2,0);
